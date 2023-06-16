@@ -10,7 +10,8 @@ class RideController extends GetxController {
   @override
   void onInit(){
     super.onInit();
-    getMyDocument();
+    // Youssry: comment this function for the error `Null check operator used on a null value`
+    // getMyDocument();
     getUsers();
     getRides();
   }
